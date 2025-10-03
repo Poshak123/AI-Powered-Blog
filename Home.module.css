@@ -1,0 +1,32 @@
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.result {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+  white-space: pre-wrap;
+}
